@@ -1,0 +1,52 @@
+# ==========================================
+# 1. ENVIRONMENT VARIABLES & SECRETS (.env)
+# ==========================================
+# Never commit your actual secret keys!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.json
+
+# ==========================================
+# 2. VIRTUAL ENVIRONMENTS & DEPENDENCIES
+# ==========================================
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Node.js dependencies
+node_modules/
+jspm_packages/
+
+# ==========================================
+# 3. VISUAL STUDIO & VS CODE CONFIGS
+# ==========================================
+# Visual Studio Code settings
+.vscode/
+!.vscode/extensions.json
+
+# Visual Studio (Large IDE) cache and build files
+.vs/
+[Dd]ebug/
+[Rr]elease/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# 4. OPERATING SYSTEM FILES
+# ==========================================
+# macOS clutter
+.DS_Store
+.AppleDouble
+
+# Windows clutter
+Thumbs.db
+ehthumbs.db
+Desktop.ini
